@@ -73,3 +73,31 @@ nav a.active {
     border-bottom: 3px solid #DAA250;
 }
 
+section {
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: #121212;
+}
+
+.home .home-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+span {
+    color: #DAA250;
+}
+
+.home-content h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
