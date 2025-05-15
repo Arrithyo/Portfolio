@@ -235,3 +235,63 @@ span {
         content: "University Student";
     }
 }
+
+#about {
+    padding: 10rem;
+}
+
+.about-title {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #DAA250;
+    text-align: center;
+    margin-bottom: 100px;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-detail {
+    display: flex;
+    gap: 8rem;
+}
+
+.about-detail i{
+    color: #DAA250;
+    margin-right: 5px;
+}
+
+.edu-list,
+.exp-list {
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    text-align: left;
+    width: 32vw;
+
+    h3{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
+
+.edu-title,
+.exp-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
